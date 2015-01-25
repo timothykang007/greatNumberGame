@@ -1,0 +1,55 @@
+/** {
+	margin: 0;
+	padding: 0;
+}
+*/
+#container {
+	width: 680px;
+	height: 700px;
+	margin: auto;
+	text-align: center;
+
+}
+
+	#left.boxes, #right.boxes {
+		background-color: red;
+	}
+
+	#middle {
+		background-color: green;
+		color: white;
+		position: absolute;
+		left: 450px;
+		top: 200px;
+	}
+
+	#hide {
+		display: none;
+	}
+
+	.boxes {
+		display: inline-block;
+		width: 200px;
+		line-height: 200px;
+		vertical-align: top;
+	}
+
+	p {
+		margin-top: 100px;
+		color: white;
+		display: inline-block;
+	}
+
+	input {
+		display: block;
+		margin-top: auto;
+		margin-top: 20px;
+	}
+
+	form {
+		margin-top: 100px;
+	}
+
+
+
+
